@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ticket Vendor!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>You need to buy Tickets?</h1>
+        <p>Fill the details below accurately and we will contact you soon...</p>
+        <hr>
+        <form action="">
+            <table>
+                <tr>
+                    <th class="left">Full Name <p id="star">*</p></th>
+                    <th><input type="text" placeholder="first name"> <input type="text" placeholder="last name"></th>
+                </tr>
+                <tr>
+                    <th class="left">E-mail <p id="star">*</p></th>
+                    <th><input type="email"></th>
+                </tr>
+                <tr>
+                    <th class="left">phone number <p id="star">*</p></th>
+                </tr>
+                <tr>
+                    <th><input type="text" placeholder="Area Code"></th>
+                    <th><input type="text" placeholder="Phone Number"></th>
+                </tr>
+                <tr>
+                    <th class="left">Terms <p id="star">*</p></th>
+                    <td><input type="radio">I accept all terms and conditions</td>
+                </tr>
+                <tr>
+                    <th class="left">Choose Quantity</th>
+                    <td>
+                        <div class="quantity">
+                            <input type="radio">Concert Ticket ($5.00)
+                            <select name="select" id="">
+                                <option value="" disabled>select</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                        </div>
+                    </td>    
+                </tr>
+            </table>
+            <button type="submit" id="btn">Purchase!</button>
+        </form>
+    </div>
+</body>
+</html>
